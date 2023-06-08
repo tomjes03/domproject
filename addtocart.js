@@ -22,80 +22,75 @@ const product = [
         image: "image/pexels-karolina-grabowska.jpg",
         title: "pexels karolina grabowska",
         price: 22,
-    },
-    {
-        id: 4,
-        image: "image/pexels-karolina-grabowskaa.jpg",
-        title: "pexels karolina grabowskaa",
-        price: 1024,
     }
 ];
-[
-    {
-        id: 5,
-        image: "image/pexels-pnw-production.jpg",
-        title: "pexels-pnw-production",
-        price: 210,
-    },
-    {
-        id: 6,
-        image: "image/soup.jpeg",
-        title: "hot sweet soup",
-        price: 85,
-    },
-    {
-        id: 7,
-        image: "image/pexels-anj-namoro.jpg",
-        title: "pexels anj namoro",
-        price: 250,
-    },
-    {
-        id: 8,
-        image: "image/pexels-erik-mclean.jpg",
-        title: "pexels erik mclean",
-        price: 350,
-    }
-];
-[
-    {
-        id: 9,
-        image: "image/pexels-hamza-nouasria.jpg",
-        title: "pexels hamza nouasria",
-        price: 412,
-    },
-    {
-        id: 10,
-        image: "image/pexels-hamza-nouasria-fav.jpg",
-        title: "pexels hamza nouasria fav",
-        price: 500,
-    },
-    {
-        id: 11,
-        image: "image/pexels-mica-asato.jpg",
-        title: "pexels mica asato",
-        price: 1000,
-    },
-    {
-        id: 12,
-        image: "image/pexels-pnw-production.jpg",
-        title: "pexels pnw production",
-        price: 1230,
-    },
-];
-[
-    {
-        id: 13,
-        image: "image/pexels-rumeysa-topuz.jpg",
-        title: "pexels rumeysa topuz",
-        price: 1220,
-    },
-    {
-        id: 14,
-        image: "image/pexels-timothy-paule-ii.jpg",
-        title: "pexels timothy paule ii",
-        price: 125,
-    }
-];
+//     {
+// //         id: 4,
+//         image: "image/pexels-karolina-grabowskaa.jpg",
+//         title: "pexels karolina grabowskaa",
+//         price: 1024,
+//     }
+// ];
+// [
+//     {
+//         id: 5,
+//         image: "image/pexels-pnw-production.jpg",
+//         title: "pexels-pnw-production",
+//         price: 210,
+//     },
+//     {
+//         id: 7,
+//         image: "image/pexels-anj-namoro.jpg",
+//         title: "pexels anj namoro",
+//         price: 250,
+//     },
+//     {
+//         id: 8,
+//         image: "image/pexels-erik-mclean.jpg",
+//         title: "pexels erik mclean",
+//         price: 350,
+//     }
+// ];
+// [
+//     {
+//         id: 9,
+//         image: "image/pexels-hamza-nouasria.jpg",
+//         title: "pexels hamza nouasria",
+//         price: 412,
+//     },
+//     {
+//         id: 10,
+//         image: "image/pexels-hamza-nouasria-fav.jpg",
+//         title: "pexels hamza nouasria fav",
+//         price: 500,
+//     },
+//     {
+//         id: 11,
+//         image: "image/pexels-mica-asato.jpg",
+//         title: "pexels mica asato",
+//         price: 1000,
+//     },
+//     {
+//         id: 12,
+//         image: "image/pexels-pnw-production.jpg",
+//         title: "pexels pnw production",
+//         price: 1230,
+//     },
+// ];
+// [
+//     {
+//         id: 13,
+//         image: "image/pexels-rumeysa-topuz.jpg",
+//         title: "pexels rumeysa topuz",
+//         price: 1220,
+//     },
+//     {
+//         id: 14,
+//         image: "image/pexels-timothy-paule-ii.jpg",
+//         title: "pexels timothy paule ii",
+//         price: 125,
+//     }
+// ];
 const categories = [...new Set(product.map((item)=>
     {return item}))]
     let i=0;
